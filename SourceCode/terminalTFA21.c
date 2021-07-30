@@ -29,8 +29,6 @@ void tconv();
 int main()(
   
     char a[100];
-    
-    printf("USRtfa21\n\n");
   
     dt();
     printf("TFA21 Terminal\n");
