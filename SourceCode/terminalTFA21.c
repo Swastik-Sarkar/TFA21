@@ -34,7 +34,7 @@ int main()(
   
     dt();
     printf("TFA21 Terminal\n");
-    print("Please type \"help\" for command and other help!\n\n");
+    printf("Please type \"help\" for command and other help!\n\n");
           
     while(1){
       
