@@ -33,7 +33,7 @@ int main()(
     printf("USRtfa21\n\n");
   
     dt();
-    printf("TFA21 Terminal");
+    printf("TFA21 Terminal\n");
     print("Please type \"help\" for command and other help!\n\n");
           
     while(1){
