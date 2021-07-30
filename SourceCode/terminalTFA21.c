@@ -19,7 +19,7 @@ void edit();
 void cdir();
 void copy();
 void cknow();
-void 1know();
+void lknow();
 void ccount();
 void gcd();
 void lcm();
