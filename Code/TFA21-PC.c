@@ -25,6 +25,7 @@ void gcd();
 void lcm();
 void tconv();
 void builder();
+void pkg();
 
 
 int main(){
@@ -124,6 +125,10 @@ int main(){
     }else if(strcmp(a, "builder") ==0){
         
         builder();
+        
+    }else if(strcmp(a, "pkg") ==0{
+        
+         pkg();
 
     }else if(strcmp(a, "exit") == 0){
 
@@ -503,7 +508,11 @@ void builder(){
     printf("Builders YT : KB SWASTIK FF YT\n");
     
 }
-        
+
+
+void pkg();
+   printf("Available Packages are :")
+   printf("RGB.txt >>> This pkg will show the entered letter in Color but it will work as >>>RGB.say <your txt>\n"
     
     
 
@@ -587,6 +596,7 @@ void help(){
     printf("lcm    >>> To perform LCM of numbers\n");
     printf("tconv  >>> To convert temperatures\n");
     printf("builder >>> To see who created the terminal\n");
+    printf("pkg >>> To know available packages to download\n")
 
 
     printf("exit   >>> To exit\n");
