@@ -1,92 +1,183 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <string.h>
+
 #include <ctype.h>
+
 #include <math.h>
+
 #include <time.h>
 
+
+
+
 void read();
+
 void write();
+
 void append();
 void clear();
+
 void help();
+
 void dt();
+
 void exits();
+
 void startscreen();
+
 void removes();
+
 void renames();
+
 void edit();
+
 void cdir();
+
 void copy();
+
 void cknow();
+
 void lknow();
+
 void ccount();
+
 void gcd();
+
 void lcm();
+
 void tconv();
+
 void builder();
+
 void pkg();
+
+
+
+
 
 
 int main(){
 
+
+
     char a[100];
+
+
 
     printf("TFA21 Terminal\n\n");
 
+
+
     dt();
+
     printf("Welcome To TFA21 Terminal\n");
+
+
+
     
-    printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
+printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
+
     printf("Made by Swastik Sarkar\n");
+
     printf("Package: com.KBSpkgsEXE.TFA21\n");
+
     printf("subscrbe YouTube : https://www.youtube.com/channel/UCzigeA4Get121c1am67f8fg\n");
+
     printf("Terminal details : TFA21 for Windows / Non MAC\n");
+
     printf("Type \"help\" for more things!\n\n");
+
+    
     
     while(1){
 
+   
+
     printf(">>> ");
+
     fflush(stdin);
+
     scanf("%s", a);
+
+ 
 
     if(strcmp(a, "read") == 0){
 
-        read();
+ 
+
+       read();
+
+
 
     }else if(strcmp(a, "write") == 0){
 
+
+
         write();
+
+
 
     }else if(strcmp(a, "append") == 0){
 
+
+        
         append();
+
+
+
 
     }else if(strcmp(a, "clr") == 0){
 
+
+
         clear();
+
+
 
     }else if(strcmp(a, "help") == 0){
 
+
+
         help();
+
+
 
     }else if(strcmp(a, "dt") == 0){
 
+
+
         dt();
 
+ 
+
     }else if(strcmp(a, "stscr") == 0){
+
+
 
         startscreen();
 
     }else if(strcmp(a, "remove") == 0){
 
+
+
         removes();
+
+
 
     }else if(strcmp(a, "rename") == 0){
 
+ 
+
         renames();
 
+
+
     }else if(strcmp(a, "edit") == 0){
+
+ 
 
         edit();
 
@@ -126,7 +217,7 @@ int main(){
         
         builder();
         
-    }else if(strcmp(a, "pkg") ==0{
+    }else if(strcmp(a, "pkg") ==0){
         
          pkg();
 
@@ -510,10 +601,12 @@ void builder(){
 }
 
 
-void pkg();
-   printf("Available Packages are :")
-   printf("RGB.txt >>> This pkg will show the entered letter in Color but it will work as >>>RGB.say <your txt>\n"
+void pkg(){
+   printf("Available Packages are :");
+   printf("RGB.txt >>> This pkg will show the entered letter in Color but it will work as >>>RGB.say <your txt>\n");
+
     
+}    
     
 
 void tconv(){
@@ -596,7 +689,7 @@ void help(){
     printf("lcm    >>> To perform LCM of numbers\n");
     printf("tconv  >>> To convert temperatures\n");
     printf("builder >>> To see who created the terminal\n");
-    printf("pkg >>> To know available packages to download\n")
+    printf("pkg >>> To know available packages to download\n");
 
 
     printf("exit   >>> To exit\n");
