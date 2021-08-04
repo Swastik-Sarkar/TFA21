@@ -18,6 +18,7 @@ void read();
 void write();
 
 void append();
+
 void clear();
 
 void help();
@@ -54,7 +55,7 @@ void builder();
 
 void pkg();
 
-
+void PKGrgb();
 
 
 
@@ -106,78 +107,41 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
 
     if(strcmp(a, "read") == 0){
 
- 
-
-       read();
-
-
+        read();
 
     }else if(strcmp(a, "write") == 0){
 
-
-
         write();
-
-
 
     }else if(strcmp(a, "append") == 0){
 
-
-        
         append();
-
-
-
 
     }else if(strcmp(a, "clr") == 0){
 
-
-
         clear();
-
-
 
     }else if(strcmp(a, "help") == 0){
 
-
-
         help();
 
-
-
     }else if(strcmp(a, "dt") == 0){
-
-
-
-        dt();
-
- 
-
+        
+         dt();
+    
     }else if(strcmp(a, "stscr") == 0){
-
-
 
         startscreen();
 
     }else if(strcmp(a, "remove") == 0){
 
-
-
-        removes();
-
-
+         removes();
 
     }else if(strcmp(a, "rename") == 0){
 
- 
-
         renames();
 
-
-
     }else if(strcmp(a, "edit") == 0){
-
- 
 
         edit();
 
@@ -224,6 +188,10 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
     }else if(strcmp(a, "exit") == 0){
 
         exits();
+        
+    }else if(strcmp(a, "PKGrgb") ==0){
+         
+         PKGrgb();
 
     }else{
         printf("Enter only stated things in help\n");
