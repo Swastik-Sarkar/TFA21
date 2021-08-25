@@ -53,11 +53,6 @@ void tconv();
 
 void builder();
 
-void pkg();
-
-void PKGrgb();
-
-
 
 
 int main(){
@@ -87,7 +82,7 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
 
     printf("subscrbe YouTube : https://www.youtube.com/channel/UCzigeA4Get121c1am67f8fg\n");
 
-    printf("Terminal details : TFA21 for Windows / Non MAC\n");
+    printf("Terminal version : 0.00.001 BETA\n");
 
     printf("Type \"help\" for more things!\n\n");
 
@@ -181,20 +176,12 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
         
         builder();
         
-    }else if(strcmp(a, "pkg") ==0){
-        
-         pkg();
-
     }else if(strcmp(a, "exit") == 0){
 
         exits();
         
-    }else if(strcmp(a, "PKGrgb") ==0){
-         
-         PKGrgb();
-
     }else{
-        printf("Enter only stated things in help\n");
+        printf("no commands found\n");
     }
 
 
@@ -568,13 +555,6 @@ void builder(){
     
 }
 
-
-void pkg(){
-   printf("Available Packages are :");
-   printf("RGB.txt >>> This pkg will show the entered letter in Color but it will work as >>>RGB.say <your txt>\n");
-
-    
-}    
     
 
 void tconv(){
@@ -640,24 +620,23 @@ void tconv(){
 void help(){
     printf("\n");
     printf("You can enter the following commands:\n\n");
-    printf("write  >>> To write to a file\n");
-    printf("read   >>> To read from a file\n");
-    printf("append >>> To append a file\n");
-    printf("remove >>> To remove a file\n");
-    printf("rename >>> To rename a file\n");
-    printf("clr    >>> To clear the screen\n");
-    printf("dt     >>> To show date and time\n");
-    printf("stscr  >>> To show start screen\n");
-    printf("edit   >>> To edit a file\n");
-    printf("cdir   >>> To see the directory(location) and files\n");
-    printf("copy   >>> To copy one file to new file or append to a existing file\n");
-    printf("cknow  >>> To know how many time(s) a character repeated in file\n");
-    printf("lknow  >>> To know how line(s) are there in a file\n");
-    printf("gcd    >>> To perform GCD of numbers\n");
-    printf("lcm    >>> To perform LCM of numbers\n");
-    printf("tconv  >>> To convert temperatures\n");
+    printf("write   >>> To write to a file\n");
+    printf("read    >>> To read from a file\n");
+    printf("append  >>> To append a file\n");
+    printf("remove  >>> To remove a file\n");
+    printf("rename  >>> To rename a file\n");
+    printf("clr     >>> To clear the screen\n");
+    printf("dt      >>> To show date and time\n");
+    printf("stscr   >>> To show start screen\n");
+    printf("edit    >>> To edit a file\n");
+    printf("cdir    >>> To see the directory(location) and files\n");
+    printf("copy    >>> To copy one file to new file or append to a existing file\n");
+    printf("cknow   >>> To know how many time(s) a character repeated in file\n");
+    printf("lknow   >>> To know how line(s) are there in a file\n");
+    printf("gcd     >>> To perform GCD of numbers\n");
+    printf("lcm     >>> To perform LCM of numbers\n");
+    printf("tconv   >>> To convert temperatures\n");
     printf("builder >>> To see who created the terminal\n");
-    printf("pkg >>> To know available packages to download\n");
 
 
     printf("exit   >>> To exit\n");
