@@ -82,7 +82,7 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
 
     printf("subscrbe YouTube : https://www.youtube.com/channel/UCzigeA4Get121c1am67f8fg\n");
 
-    printf("Terminal version : 0.00.001 BETA\n");
+    printf("Terminal version : 0.00.002\n");
 
     printf("Type \"help\" for more things!\n\n");
 
