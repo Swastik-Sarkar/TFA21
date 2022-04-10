@@ -53,6 +53,7 @@ void tconv();
 
 void builder();
 
+void $jnu -mc -fpsboost
 
 
 int main(){
@@ -74,7 +75,7 @@ int main(){
 
 
     
-printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
+printf("Join Discord : soon!!!\n");
 
     printf("Made by Swastik Sarkar\n");
 
@@ -82,7 +83,7 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
 
     printf("subscrbe YouTube : https://www.youtube.com/channel/UCzigeA4Get121c1am67f8fg\n");
 
-    printf("Terminal version : 0.00.002\n");
+    printf("Terminal version : 0.00.003\n");
 
     printf("Type \"help\" for more things!\n\n");
 
@@ -179,6 +180,10 @@ printf("Join Discord : https://discord.gg/hgse5XYnfQ\n");
     }else if(strcmp(a, "exit") == 0){
 
         exits();
+        
+    }else if(strcmp(a, "$jnu -mc -fpsboost") == 0){
+
+        $jnu -mc -fpsboost();
         
     }else{
         printf("no commands found\n");
