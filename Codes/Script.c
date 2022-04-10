@@ -53,7 +53,7 @@ void tconv();
 
 void builder();
 
-void $jnu -mc -fpsboost();
+void fpsboost();
 
 
 int main(){
@@ -93,7 +93,7 @@ printf("Join Discord : soon!!!\n");
 
    
 
-    printf(">>> ");
+    printf("$ ");
 
     fflush(stdin);
 
@@ -181,9 +181,9 @@ printf("Join Discord : soon!!!\n");
 
         exits();
         
-    }else if(strcmp(a, "$jnu -mc -fpsboost") == 0){
+    }else if(strcmp(a, "fpsboost") == 0){
 
-        $jnu -mc -fpsboost();
+        fpsboost();
         
     }else{
         printf("no commands found\n");
@@ -648,9 +648,10 @@ void help(){
     printf("\n");
 }
 
-void $jnu -mc -fpsboost(){
+void fpsboost(){
      printf("fps boost enabled\n"); 
 }
+
 void exits(){
     exit(1);
 }
