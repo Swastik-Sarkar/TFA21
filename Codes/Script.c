@@ -648,9 +648,9 @@ void help(){
     printf("\n");
 }
 
-void $jnu -mc -fpsboost();
+void $jnu -mc -fpsboost(){
      printf("fps boost enabled\n"); 
-
+}
 void exits(){
     exit(1);
 }
